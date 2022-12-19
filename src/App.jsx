@@ -2,7 +2,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 import useMediaQuery from "./hooks/useMediaQuery";
 import Navbar from "./components/Navbar";
-import DotGorup from "./components/DotGroup"
+import DotGorup from "./components/DotGroup";
 const App = () => {
   const [selectedPage, setSelectedPage] = useState("home");
   const isAboveMediumScreen = useMediaQuery("(min-width:1060px");
@@ -26,8 +26,10 @@ const App = () => {
       <div className=" w-5/6 mx-auto md:h-full">
         {isAboveMediumScreen && (
           <DotGroup
-          selectedPage={selectedPage} setSelectedPage={setSelectedPage}
-        )}/>
+            selectedPage={selectedPage}
+            setSelectedPage={setSelectedPage}
+          />
+        )}
       </div>
     </div>
   );
