@@ -58,7 +58,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
             <img
               alt="menu-icon"
               src="./src/assets/mobile-btn.png"
-              className="w-[50px] h-[50px]"
+              className="w-[35px] h-[35px]"
               onClick={() => setIsMenuToggled(!isMenuToggled)}
             />
           </button>
@@ -73,7 +73,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
                 alt="close-btn"
               >
                 <img
-                  className="w-[50px] h-[50px]"
+                  className="w-[35px] h-[35px]"
                   src="./src/assets/close-btn.png"
                   alt=""
                 />
