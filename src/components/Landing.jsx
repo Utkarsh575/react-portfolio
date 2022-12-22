@@ -34,7 +34,7 @@ const Landing = ({ setSelectedPage }) => {
         )}
         <div className="z-30 basis-2/5 mt-12 md:mt-32">
           {/* HEADINGS */}
-          <motion.div
+          <motion.div className=""
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.5 }}
