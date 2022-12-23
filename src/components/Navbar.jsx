@@ -21,7 +21,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
   const isAboveSmallScreens = useMediaQuery("(min-width:768px)");
   const navBarBackground = isTopOfPage ? "" : "bg-red";
   return (
-    <nav className={`${navBarBackground} z-40 w-full fixed top-0 py-6 `}>
+    <nav className={`${navBarBackground} z-40 w-full fixed top-0 py-[0.6rem] `}>
       <div className="flex items-center justify-between mx-auto w-5/6">
         <h4 className="font-playfair text-3xl font-bold">Utkarsh575</h4>
 

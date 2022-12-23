@@ -10,7 +10,7 @@ const Landing = ({ setSelectedPage }) => {
       id="home"
       className="md:flex md:justify-between md:items-center gap-16 md:h-full py-10"
     >
-      <div className="basis-5/6 z-10 mt-16 md:mt-32 flex justify-between md:flex-row-reverse flex-col items-center ">
+      <div className=" z-10 mt-16 md:mt-32 flex justify-between md:flex-row-reverse flex-col items-center ">
         {isAboveLarge ? (
           <div
             className="relative z-0 ml-20 before:absolute before:-top-20 before:-left-20 before:rounded-t-[400px]
@@ -24,7 +24,7 @@ const Landing = ({ setSelectedPage }) => {
             />
           </div>
         ) : (
-          <div className="border-blue border-2 w-[20rem] rounded-t-full bg-gradient-rainbow scale-[85%]">
+          <div className="border-blue border-2 hover:saturate-200 transition duration-500 w-[20rem] rounded-t-full bg-gradient-rainbow scale-[85%]">
             <img
               alt="profile"
               className=" z-10 w-full  max-w-[400px] md:max-w-[600px] "
@@ -32,9 +32,10 @@ const Landing = ({ setSelectedPage }) => {
             />
           </div>
         )}
-        <div className="z-30 basis-2/5 mt-12 md:mt-32">
+        <div className="z-30 basis-[40%] mt-12 md:mt-32 sm:basis-[50%] md:basis-[48%] ">
           {/* HEADINGS */}
-          <motion.div className=""
+          <motion.div
+            className=""
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.5 }}
@@ -54,9 +55,37 @@ const Landing = ({ setSelectedPage }) => {
               </span>
             </p>
 
-            <p className="mt-10 mb-7 text-sm text-center md:text-start">
-              Adipiscing arcu, in aliquam fringilla cursus. Elit arcu elementum
-              viverra malesuada sem ac faucibus dolor. Sagittis scelerisque.
+            <p className="mt-10 mb-7 text-sm text-center md:text-start ">
+              <h3 class="text-base font-sans text-white font-medium     ">
+                Fullstack WebDeveloper , Designer ,Web3 Enthusiast
+              </h3>
+              {/* <h1 class="text-4xl font-extrabold text-slate-300 mt-3">
+                Hi, I am Utkarsh
+              </h1> */}
+              <p class="text-base font-semibold  text-gray-400 mt-3">
+                I am a Sophomore at student at SRMIST KTR.
+                <span class="underline decoration-gray-900 foxt-bold text-white">
+                {" "}  Smart india hackathon 2022 winner , 15+ Hackathon wins{" "}
+                </span>
+                I am passionate about
+                <span class="underline decoration-red-400 foxt-bold text-white">
+                {" "} Open Source{" "}
+                </span>
+                and{" "}
+                <span class="underline decoration-pink-500 font-bold text-white">
+                {" "}   Web Development{" "}
+                </span>
+                currently learning to build scalable web-apps I am proficient in
+                building neat User Interfaces and can get along with full stack
+                projects . My Favorite tech Stack is
+                <span class="underline decoration-green-500 font-bold text-white">
+                {" "} MERN{" "}
+                </span>
+                <span class="text-green-300"> MongoDB</span>,
+                <span class="text-red-600">ExpressJS</span>,
+                <span class="text-indigo-500">ReactJS</span>,
+                <span class="text-green-600">NodeJS</span>
+              </p>
             </p>
           </motion.div>
           {/* cta */}
