@@ -44,7 +44,7 @@ const Skills = () => {
               &lt; h3 &gt;
             </h3>
             <div className="flex justify-start  p-2 mx-5">
-              <img className="px-2" src="./src/assets/line.png" alt="line" />
+              <img className="px-2" src="/public/line.png" alt="line" />
               <p className="font-mono">
                 Experienced in Data Structures and Algorithms with both
                 Functional and Object Oriented Programing using C C++ Javascript
@@ -74,7 +74,7 @@ const Skills = () => {
               &lt; h3 &gt;
             </h3>
             <div className="flex justify-start  p-2 mx-5">
-              <img className="px-2" src="./src/assets/line.png" alt="line" />
+              <img className="px-2" src="/public/line.png" alt="line" />
               <p className="font-mono">
                 Experienced in Developing Beautiful User Interfaces using React
                 js , Next js , Svelte js , Tailwind CSS , Material UI, Post CSS
@@ -105,7 +105,7 @@ const Skills = () => {
               &lt; h3 &gt;
             </h3>
             <div className="flex justify-start  p-2 mx-5">
-              <img className="px-2" src="./src/assets/line.png" alt="line" />
+              <img className="px-2" src="/public/line.png" alt="line" />
               <p className="font-mono">
                 Experienced in Developing Backend Architecture and RESTful API's
                 using Node Js ,and Express Js , MongoDB and MySql using
@@ -141,7 +141,7 @@ const Skills = () => {
             <div className="flex justify-start  p-2 mx-5">
               <img
                 className="px-2 sm:scale-75 "
-                src="./src/assets/line.png"
+                src="/public/line.png"
                 alt="line"
               />
               <p className="  font-mono text-sm">
@@ -176,7 +176,7 @@ const Skills = () => {
             <div className="flex justify-start  p-2 mx-5">
               <img
                 className="px-2 sm:scale-75 "
-                src="./src/assets/line.png"
+                src="/public/line.png"
                 alt="line"
               />
               <p className="  font-mono text-sm">
@@ -211,7 +211,7 @@ const Skills = () => {
             <div className="flex justify-start  p-2 mx-5">
               <img
                 className="px-2 sm:scale-75"
-                src="./src/assets/line.png"
+                src="/public/line.png"
                 alt="line"
               />
               <p className="  font-mono text-sm">

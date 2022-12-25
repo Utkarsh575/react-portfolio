@@ -1280,7 +1280,7 @@ body,
   }
 
   .xs\:before\:content-brush::before{
-    --tw-content: url('/src/assets/brush.png');
+    --tw-content: url('/public/brush.png');
     content: var(--tw-content);
   }
 }
