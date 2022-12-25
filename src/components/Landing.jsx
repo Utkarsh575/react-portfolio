@@ -2,6 +2,7 @@ import useMediaQuery from "../hooks/useMediaQuery";
 import { motion } from "framer-motion";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import SocialMediaIcons from "../components/SocialMediaIcons";
+import ProfileImage from "../../assets/profile.png"
 
 const Landing = ({ setSelectedPage }) => {
   const isAboveLarge = useMediaQuery("(min-width:1060px)");
@@ -20,7 +21,7 @@ const Landing = ({ setSelectedPage }) => {
               alt="profile"
               className="hover:filter hover:saturate-200 transition duration-500 z-10 w-full max-w-[15rem] md:max-w-[20rem]
               bg-gradient-rainbow rounded-t-full "
-              src="/assets/profile.png"
+              src={ProfileImage}
             />
           </div>
         ) : (
@@ -28,7 +29,7 @@ const Landing = ({ setSelectedPage }) => {
             <img
               alt="profile"
               className=" z-10 w-full  max-w-[400px] md:max-w-[600px] "
-              src="/assets/profile.png"
+              src={ProfileImage}
             />
           </div>
         )}

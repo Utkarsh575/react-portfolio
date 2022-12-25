@@ -1,3 +1,8 @@
+import Linkedin from "../../assets/linkedin.svg";
+import Github from "../../assets/github.svg";
+import Twitter from "../../assets/twitter.svg";
+import Instagram from "../../assets/instagram.svg";
+import Discord from "../../assets/discord.svg";
 const SocialMediaIcons = () => {
   return (
     <div className="flex justify-center md:justify-start my-10 gap-7">
@@ -8,7 +13,7 @@ const SocialMediaIcons = () => {
         rel="noreferrer"
         target="_blank"
       >
-        <img className="invert w-[30px]" src="./src/assets/linkedin.svg" alt="" />
+        <img className="invert w-[30px]" src={Linkedin} alt="" />
       </a>
       <a
         className="hover:opacity-50 transition duration-500"
@@ -17,7 +22,7 @@ const SocialMediaIcons = () => {
         rel="noreferrer"
         target="_blank"
       >
-        <img className="invert w-[30px] " src="./src/assets/github.svg" alt="" />
+        <img className="invert w-[30px] " src={Github} alt="" />
       </a>
       <a
         className="hover:opacity-50 transition duration-500"
@@ -26,7 +31,7 @@ const SocialMediaIcons = () => {
         rel="noreferrer"
         target="_blank"
       >
-        <img className="invert w-[30px]" src="./src/assets/twitter.svg" alt="" />
+        <img className="invert w-[30px]" src={Twitter} alt="" />
       </a>
       <a
         className="hover:opacity-50 transition duration-500"
@@ -35,7 +40,7 @@ const SocialMediaIcons = () => {
         rel="noreferrer"
         target="_blank"
       >
-        <img className="invert w-[30px]" src="./src/assets/instagram.svg" alt="" />
+        <img className="invert w-[30px]" src={Instagram} alt="" />
       </a>
       <a
         className="hover:opacity-50 transition duration-500"
@@ -44,11 +49,7 @@ const SocialMediaIcons = () => {
         rel="noreferrer"
         target="_blank"
       >
-        <img
-          className="invert w-[30px] translate-y-2"
-          src="./src/assets/discord.svg"
-          alt=""
-        />
+        <img className="invert w-[30px] translate-y-2" src={Discord} alt="" />
       </a>
     </div>
   );

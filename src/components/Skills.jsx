@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import useMediaQuery from "../hooks/useMediaQuery";
 import axios from "axios";
 import LineBreak from "./LineBreak";
+import Line from "../../assets/line.png";
 
 const Skills = () => {
   const isAboveSmallScreens = useMediaQuery("(min-width:1060px)");
@@ -44,7 +45,7 @@ const Skills = () => {
               &lt; h3 &gt;
             </h3>
             <div className="flex justify-start  p-2 mx-5">
-              <img className="px-2" src="/assets/line.png" alt="line" />
+              <img className="px-2" src={Line} alt="line" />
               <p className="font-mono">
                 Experienced in Data Structures and Algorithms with both
                 Functional and Object Oriented Programing using C C++ Javascript
@@ -74,7 +75,7 @@ const Skills = () => {
               &lt; h3 &gt;
             </h3>
             <div className="flex justify-start  p-2 mx-5">
-              <img className="px-2" src="/assets/line.png" alt="line" />
+              <img className="px-2" src={Line} alt="line" />
               <p className="font-mono">
                 Experienced in Developing Beautiful User Interfaces using React
                 js , Next js , Svelte js , Tailwind CSS , Material UI, Post CSS
@@ -105,7 +106,7 @@ const Skills = () => {
               &lt; h3 &gt;
             </h3>
             <div className="flex justify-start  p-2 mx-5">
-              <img className="px-2" src="/assets/line.png" alt="line" />
+              <img className="px-2" src={Line} alt="line" />
               <p className="font-mono">
                 Experienced in Developing Backend Architecture and RESTful API's
                 using Node Js ,and Express Js , MongoDB and MySql using
@@ -139,11 +140,7 @@ const Skills = () => {
               &lt; h3 &gt;
             </h3>
             <div className="flex justify-start  p-2 mx-5">
-              <img
-                className="px-2 sm:scale-75 "
-                src="/assets/line.png"
-                alt="line"
-              />
+              <img className="px-2 sm:scale-75 " src={Line} alt="line" />
               <p className="  font-mono text-sm">
                 Experienced in Data Structures and Algorithms with both
                 Functional and Object Oriented Programing using C C++ Javascript
@@ -174,11 +171,7 @@ const Skills = () => {
               &lt; h3 &gt;
             </h3>
             <div className="flex justify-start  p-2 mx-5">
-              <img
-                className="px-2 sm:scale-75 "
-                src="/assets/line.png"
-                alt="line"
-              />
+              <img className="px-2 sm:scale-75 " src={Line} alt="line" />
               <p className="  font-mono text-sm">
                 Experienced in Developing Beautiful User Interfaces using React
                 js , Next js , Svelte js , Tailwind CSS , Material UI, Post CSS
@@ -209,11 +202,7 @@ const Skills = () => {
               &lt; h3 &gt;
             </h3>
             <div className="flex justify-start  p-2 mx-5">
-              <img
-                className="px-2 sm:scale-75"
-                src="/assets/line.png"
-                alt="line"
-              />
+              <img className="px-2 sm:scale-75" src={Line} alt="line" />
               <p className="  font-mono text-sm">
                 Experienced in Developing Backend Architecture and RESTful API's
                 using Node Js ,and Express Js , MongoDB and MySql using

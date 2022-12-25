@@ -1,6 +1,8 @@
 import { useState } from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import useMediaQuery from "../hooks/useMediaQuery";
+import BurgerBtn from "../../assets/mobile-btn.png";
+import CloseBtn from "../../assets/close-btn.png";
 
 const Link = ({ page, selectedPage, setSelectedPage }) => {
   const lowerCasePage = page.toLowerCase();
@@ -57,7 +59,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
           <button>
             <img
               alt="menu-icon"
-              src="/assets/mobile-btn.png"
+              src={BurgerBtn}
               className="w-[35px] h-[35px]"
               onClick={() => setIsMenuToggled(!isMenuToggled)}
             />
@@ -70,13 +72,9 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
               <button
                 onClick={() => setIsMenuToggled(!isMenuToggled)}
                 src="/assets/close-btn.png"
-                alt="close-btn"
+                alt={CloseBtn}
               >
-                <img
-                  className="w-[35px] h-[35px]"
-                  src="/assets/close-btn.png"
-                  alt=""
-                />
+                <img className="w-[35px] h-[35px]" src={CloseBtn} alt="" />
               </button>
             </div>
             {/* menu items*/}
