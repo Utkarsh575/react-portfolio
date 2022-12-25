@@ -1,5 +1,5 @@
-const LineBreak = ({width ="w-full" }) => {
+const LineBreak = ({ width = "w-full" }) => {
   return <div className={`h-0.5 ${width} bg-gradient-rainblue`} />;
-}
+};
 
-export default LineBreak
+export default LineBreak;
