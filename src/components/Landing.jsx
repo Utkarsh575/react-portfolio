@@ -64,7 +64,7 @@ const Landing = ({ setSelectedPage }) => {
                 Hi, I am Utkarsh
               </h1> */}
               <p class="text-base font-semibold  text-gray-400 mt-3">
-                I am a Sophomore at student at SRMIST KTR.
+                I am a Sophomore at SRMIST KTR.
                 <span class="underline decoration-gray-900 foxt-bold text-white">
                 {" "}  Smart india hackathon 2022 winner , 15+ Hackathon wins{" "}
                 </span>
