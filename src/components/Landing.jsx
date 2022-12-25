@@ -20,7 +20,7 @@ const Landing = ({ setSelectedPage }) => {
               alt="profile"
               className="hover:filter hover:saturate-200 transition duration-500 z-10 w-full max-w-[15rem] md:max-w-[20rem]
               bg-gradient-rainbow rounded-t-full "
-              src="../public/profile.png"
+              src="./assets/profile.png"
             />
           </div>
         ) : (
@@ -28,7 +28,7 @@ const Landing = ({ setSelectedPage }) => {
             <img
               alt="profile"
               className=" z-10 w-full  max-w-[400px] md:max-w-[600px] "
-              src="../public/profile.png"
+              src="./assets/profile.png"
             />
           </div>
         )}
