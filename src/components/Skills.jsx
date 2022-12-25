@@ -25,11 +25,42 @@ const Skills = () => {
       </h1>
       {isAboveSmallScreens ? (
         <div className="mt-10 items-center flex flex-row  justify-start  ">
-          <div className="basis-1/3 flex flex-col justify-center h-[20rem] text-center  items-start border-2 border-grey py-5 ]">
+          <div className="basis-1/3 flex flex-col justify-center h-[20rem] text-center  items-start border-2 border-grey py-5 ">
             <div className="flex flex-row mx-5 gap-5 ">
-              {/* <img src="https://img.icons8.com/office/75/null/react.png" /> */}
-              {/* <img src="https://img.icons8.com/ios-glyphs/30/null/react.png"/> */}
-              <img className="invert" src="https://img.icons8.com/ios/75/null/monitor--v1.png" />
+              <img
+                className="invert"
+                src="https://img.icons8.com/ios/75/null/monitor--v1.png"
+              />
+              <h1 className="md:text-4xl font-sans font-bold text-left ">
+                <span className="underline  decoration-8 decoration-purple-500">
+                  Software,
+                </span>{" "}
+                Development
+              </h1>
+            </div>
+            <h3 className="justify-start flex mx-5 text-gray-500">
+              {" "}
+              &lt; h3 &gt;
+            </h3>
+            <div className="flex justify-start  p-2 mx-5">
+              <img className="px-2" src="./src/assets/line.png" alt="line" />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+                architecto ipsa numquam autem magni aperiam totam quia facilis
+                quisquam ratione.
+              </p>
+            </div>
+            <h3 className="justify-start flex mx-5 text-gray-500 ">
+              {" "}
+              &lt; h3 &gt;
+            </h3>
+          </div>
+          <div className="basis-1/3 flex flex-col justify-center h-[20rem] text-center  items-start border-2 border-grey py-5">
+            <div className="flex flex-row mx-5 gap-5 ">
+              <img
+                className="invert"
+                src="https://img.icons8.com/ios-glyphs/75/null/react.png"
+              />
               <h1 className="md:text-4xl font-sans font-bold text-left ">
                 <span className="underline  decoration-8 decoration-pink-500">
                   Frontend,
@@ -54,11 +85,36 @@ const Skills = () => {
               &lt; h3 &gt;
             </h3>
           </div>
-          <div className="basis-1/3 flex justify-center h-[20rem] text-center  items-center border-2 border-grey py-5">
-            <p>hi</p>
-          </div>
-          <div className="basis-1/3 flex justify-center h-[20rem] text-center  items-center border-2 border-grey py-5">
-            <p>hi</p>
+          <div className="basis-1/3 flex flex-col justify-center h-[20rem] text-center  items-start border-2 border-grey py-5">
+            <div className="flex flex-row mx-5 gap-5 ">
+              <img
+                className="invert"
+                src="https://img.icons8.com/material-outlined/75/null/api-settings.png"
+              />
+
+              <h1 className="md:text-4xl font-sans font-bold text-left ">
+                <span className="underline  decoration-8 decoration-cyan-500">
+                  Backend,
+                </span>{" "}
+                Development
+              </h1>
+            </div>
+            <h3 className="justify-start flex mx-5 text-gray-500">
+              {" "}
+              &lt; h3 &gt;
+            </h3>
+            <div className="flex justify-start  p-2 mx-5">
+              <img className="px-2" src="./src/assets/line.png" alt="line" />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+                architecto ipsa numquam autem magni aperiam totam quia facilis
+                quisquam ratione.
+              </p>
+            </div>
+            <h3 className="justify-start flex mx-5 text-gray-500 ">
+              {" "}
+              &lt; h3 &gt;
+            </h3>
           </div>
         </div>
       ) : (
