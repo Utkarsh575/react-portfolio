@@ -20,7 +20,8 @@ const Skills = () => {
         My Skills
         <LineBreak width={"md:w-32 w-24"} />
       </div>
-      <h1 className="text-center bg-clip-text text-7xl font-bold font-sans">
+
+      <h1 className="text-center text-transparent bg-gradient-rainblue p-2  bg-clip-text text-4xl md:text-7xl font-bold font-sans">
         My Expertise{" "}
       </h1>
       {isAboveSmallScreens ? (
@@ -119,28 +120,112 @@ const Skills = () => {
         </div>
       ) : (
         <div className="mt-10 items-center flex xs:flex-row flex-col-reverse flex-wrap w-auto justify-start  ">
-          <div className="xs:basis-1/2  flex justify-center h-[20rem] text-center  items-start border-2 border-grey py-5 ]">
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque
-              repellendus laudantium quisquam et porro hic soluta neque impedit
-              ut aperiam!
-            </p>
+          <div className="xs:basis-1/2  flex flex-col  justify-center h-[20rem] text-center  items-start border-2 border-grey py-5 ]">
+            <div className="flex  flex-row mx-5  gap-5 ">
+              <img
+                className="invert scale-75 "
+                src="https://img.icons8.com/material-outlined/75/null/api-settings.png"
+              />
+
+              <h1 className=" xs:text-xl mt-5 xs:mt-0 text-xl sm:text-3xl  md:text-4xl font-sans font-bold text-left ">
+                <span className="underline  decoration-8 decoration-purple-500">
+                  Software,
+                </span>{" "}
+                Development
+              </h1>
+            </div>
+            <h3 className="justify-start flex mx-5 text-gray-500">
+              {" "}
+              &lt; h3 &gt;
+            </h3>
+            <div className="flex justify-start  p-2 mx-5">
+              <img
+                className="px-2 sm:scale-80"
+                src="./src/assets/line.png"
+                alt="line"
+              />
+              <p className="xs:text-sm">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+                architecto ipsa numquam autem magni aperiam totam quia facilis
+                quisquam ratione.
+              </p>
+            </div>
+            <h3 className="justify-start flex mx-5 text-gray-500 ">
+              {" "}
+              &lt; h3 &gt;
+            </h3>
           </div>
-          <div className="xs:basis-1/2  flex justify-center h-[20rem] text-center  items-start border-2 border-grey py-5">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
-              doloremque dolore nulla dicta modi rerum nobis ipsam debitis
-              corrupti aperiam?
-            </p>
+          <div className="xs:basis-1/2  flex flex-col  justify-center h-[20rem] text-center  items-start border-2 border-grey py-5 ]">
+            <div className="flex  flex-row mx-5  gap-5 ">
+              <img
+                className="invert scale-75 "
+                src="https://img.icons8.com/material-outlined/75/null/api-settings.png"
+              />
+
+              <h1 className=" xs:text-xl mt-5 xs:mt-0 text-xl sm:text-3xl  md:text-4xl font-sans font-bold text-left ">
+                <span className="underline  decoration-8 decoration-pink-500">
+                  Frontend,
+                </span>{" "}
+                Development
+              </h1>
+            </div>
+            <h3 className="justify-start flex mx-5 text-gray-500">
+              {" "}
+              &lt; h3 &gt;
+            </h3>
+            <div className="flex justify-start  p-2 mx-5">
+              <img
+                className="px-2 sm:scale-80 "
+                src="./src/assets/line.png"
+                alt="line"
+              />
+              <p className="xs:text-sm">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+                architecto ipsa numquam autem magni aperiam totam quia facilis
+                quisquam ratione.
+              </p>
+            </div>
+            <h3 className="justify-start flex mx-5 text-gray-500 ">
+              {" "}
+              &lt; h3 &gt;
+            </h3>
           </div>
-          <div className="xs:basis-1/2  flex justify-center h-[20rem] text-center  items-start border-2 border-grey py-5">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
-              doloremque dolore nulla dicta modi rerum nobis ipsam debitis
-              corrupti aperiam?
-            </p>
+          <div className="xs:basis-1/2  flex flex-col  justify-center h-[20rem] text-center  items-start border-2 border-grey py-5 ]">
+            <div className="flex  flex-row mx-5  gap-5 ">
+              <img
+                className="invert scale-75 "
+                src="https://img.icons8.com/material-outlined/75/null/api-settings.png"
+              />
+
+              <h1 className=" xs:text-xl mt-5 xs:mt-0 text-xl sm:text-3xl  md:text-4xl font-sans font-bold text-left ">
+                <span className="underline  decoration-8 decoration-cyan-500">
+                  Backend,
+                </span>{" "}
+                Development
+              </h1>
+            </div>
+            <h3 className="justify-start flex mx-5 text-gray-500">
+              {" "}
+              &lt; h3 &gt;
+            </h3>
+            <div className="flex justify-start  p-2 mx-5">
+              <img
+                className="px-2 sm:scale-80"
+                src="./src/assets/line.png"
+                alt="line"
+              />
+              <p className="xs:text-sm">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+                architecto ipsa numquam autem magni aperiam totam quia facilis
+                quisquam ratione.
+              </p>
+            </div>
+            <h3 className="justify-start flex mx-5 text-gray-500 ">
+              {" "}
+              &lt; h3 &gt;
+            </h3>
           </div>
-          <div className="xs:basis-1/2  flex justify-center h-[20rem] text-center  items-center border-2 border-grey py-5">
+          <div className="xs:basis-1/2  flex flex-col w-full justify-center h-[20rem] text-center  items-center border-2 border-grey py-5">
             <blockquote className="text-xl italic font-semibold text-gray-900 dark:text-white">
               <svg
                 aria-hidden="true"
@@ -155,7 +240,9 @@ const Skills = () => {
                 />
               </svg>
               <p>"{quote}"</p>
+              <p> -Billumon</p>
             </blockquote>
+            
           </div>
         </div>
       )}
