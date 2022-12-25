@@ -26,7 +26,7 @@ const Skills = () => {
       </h1>
       {isAboveSmallScreens ? (
         <div className="mt-10 items-center flex flex-row  justify-start  ">
-          <div className="basis-1/3 flex flex-col justify-center h-[20rem] text-center  items-start border-2 border-grey py-5 ">
+          <div className="basis-1/3 flex flex-col justify-center h-[20rem] text-center  items-start border-2 border-grey py-5   ">
             <div className="flex flex-row mx-5 gap-5 ">
               <img
                 className="invert"
@@ -45,10 +45,10 @@ const Skills = () => {
             </h3>
             <div className="flex justify-start  p-2 mx-5">
               <img className="px-2" src="./src/assets/line.png" alt="line" />
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-                architecto ipsa numquam autem magni aperiam totam quia facilis
-                quisquam ratione.
+              <p className="font-mono">
+                Experienced in Data Structures and Algorithms with both
+                Functional and Object Oriented Programing using C C++ Javascript
+                and TypeScript.
               </p>
             </div>
             <h3 className="justify-start flex mx-5 text-gray-500 ">
@@ -56,7 +56,7 @@ const Skills = () => {
               &lt; h3 &gt;
             </h3>
           </div>
-          <div className="basis-1/3 flex flex-col justify-center h-[20rem] text-center  items-start border-2 border-grey py-5">
+          <div className="basis-1/3 flex flex-col justify-center h-[20rem] text-center  items-start border-2 border-grey py-5  ">
             <div className="flex flex-row mx-5 gap-5 ">
               <img
                 className="invert"
@@ -75,10 +75,10 @@ const Skills = () => {
             </h3>
             <div className="flex justify-start  p-2 mx-5">
               <img className="px-2" src="./src/assets/line.png" alt="line" />
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-                architecto ipsa numquam autem magni aperiam totam quia facilis
-                quisquam ratione.
+              <p className="font-mono">
+                Experienced in Developing Beautiful User Interfaces using React
+                js , Next js , Svelte js , Tailwind CSS , Material UI, Post CSS
+                and SASS like this one UwU.
               </p>
             </div>
             <h3 className="justify-start flex mx-5 text-gray-500 ">
@@ -86,7 +86,7 @@ const Skills = () => {
               &lt; h3 &gt;
             </h3>
           </div>
-          <div className="basis-1/3 flex flex-col justify-center h-[20rem] text-center  items-start border-2 border-grey py-5">
+          <div className="basis-1/3 flex flex-col justify-center h-[20rem] text-center  items-start border-2 border-grey py-5  ">
             <div className="flex flex-row mx-5 gap-5 ">
               <img
                 className="invert"
@@ -106,10 +106,10 @@ const Skills = () => {
             </h3>
             <div className="flex justify-start  p-2 mx-5">
               <img className="px-2" src="./src/assets/line.png" alt="line" />
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-                architecto ipsa numquam autem magni aperiam totam quia facilis
-                quisquam ratione.
+              <p className="font-mono">
+                Experienced in Developing Backend Architecture and RESTful API's
+                using Node Js ,and Express Js , MongoDB and MySql using
+                Javascript and Typescript.
               </p>
             </div>
             <h3 className="justify-start flex mx-5 text-gray-500 ">
@@ -120,7 +120,7 @@ const Skills = () => {
         </div>
       ) : (
         <div className="mt-10 items-center flex xs:flex-row flex-col-reverse flex-wrap w-auto justify-start  ">
-          <div className="xs:basis-1/2  flex flex-col  justify-center h-[20rem] text-center  items-start border-2 border-grey py-5 ]">
+          <div className="xs:basis-1/2  flex flex-col  justify-center h-[20rem] text-center  items-start border-2 border-grey py-5   ">
             <div className="flex  flex-row mx-5  gap-5 ">
               <img
                 className="invert scale-75 "
@@ -140,22 +140,22 @@ const Skills = () => {
             </h3>
             <div className="flex justify-start  p-2 mx-5">
               <img
-                className="px-2 sm:scale-80"
+                className="px-2 sm:scale-75 "
                 src="./src/assets/line.png"
                 alt="line"
               />
-              <p className="xs:text-sm">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-                architecto ipsa numquam autem magni aperiam totam quia facilis
-                quisquam ratione.
+              <p className="  font-mono text-sm">
+                Experienced in Data Structures and Algorithms with both
+                Functional and Object Oriented Programing using C C++ Javascript
+                and TypeScript.
               </p>
             </div>
-            <h3 className="justify-start flex mx-5 text-gray-500 ">
+            <h3 className="justify-start flex mx-5 text-gray-500  ">
               {" "}
               &lt; h3 &gt;
             </h3>
           </div>
-          <div className="xs:basis-1/2  flex flex-col  justify-center h-[20rem] text-center  items-start border-2 border-grey py-5 ]">
+          <div className="xs:basis-1/2  flex flex-col  justify-center h-[20rem] text-center  items-start border-2 border-grey py-5 ">
             <div className="flex  flex-row mx-5  gap-5 ">
               <img
                 className="invert scale-75 "
@@ -169,20 +169,20 @@ const Skills = () => {
                 Development
               </h1>
             </div>
-            <h3 className="justify-start flex mx-5 text-gray-500">
+            <h3 className="justify-start flex mx-5 text-gray-500 ">
               {" "}
               &lt; h3 &gt;
             </h3>
             <div className="flex justify-start  p-2 mx-5">
               <img
-                className="px-2 sm:scale-80 "
+                className="px-2 sm:scale-75 "
                 src="./src/assets/line.png"
                 alt="line"
               />
-              <p className="xs:text-sm">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-                architecto ipsa numquam autem magni aperiam totam quia facilis
-                quisquam ratione.
+              <p className="  font-mono text-sm">
+                Experienced in Developing Beautiful User Interfaces using React
+                js , Next js , Svelte js , Tailwind CSS , Material UI, Post CSS
+                and SASS like this one UwU.
               </p>
             </div>
             <h3 className="justify-start flex mx-5 text-gray-500 ">
@@ -190,7 +190,7 @@ const Skills = () => {
               &lt; h3 &gt;
             </h3>
           </div>
-          <div className="xs:basis-1/2  flex flex-col  justify-center h-[20rem] text-center  items-start border-2 border-grey py-5 ]">
+          <div className="xs:basis-1/2  flex flex-col  justify-center h-[20rem] text-center  items-start border-2 border-grey py-5  ">
             <div className="flex  flex-row mx-5  gap-5 ">
               <img
                 className="invert scale-75 "
@@ -210,17 +210,17 @@ const Skills = () => {
             </h3>
             <div className="flex justify-start  p-2 mx-5">
               <img
-                className="px-2 sm:scale-80"
+                className="px-2 sm:scale-75"
                 src="./src/assets/line.png"
                 alt="line"
               />
-              <p className="xs:text-sm">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-                architecto ipsa numquam autem magni aperiam totam quia facilis
-                quisquam ratione.
+              <p className="  font-mono text-sm">
+                Experienced in Developing Backend Architecture and RESTful API's
+                using Node Js ,and Express Js , MongoDB and MySql using
+                Javascript and Typescript
               </p>
             </div>
-            <h3 className="justify-start flex mx-5 text-gray-500 ">
+            <h3 className="justify-start flex mx-5 text-gray-500  ">
               {" "}
               &lt; h3 &gt;
             </h3>
@@ -242,7 +242,6 @@ const Skills = () => {
               <p>"{quote}"</p>
               <p> -Billumon</p>
             </blockquote>
-            
           </div>
         </div>
       )}
