@@ -21,7 +21,10 @@ text-light  "
 const SkillList = () => {
   return (
     <>
-      <h2 className=" bg-yellow-200 font-bold text-8xl  w-full text-center">
+      <h2
+        className=" bg-yellow-200 font-bold text-8xl  w-full text-center "
+        style={{textShadow:"#ec4899 0px 7px "}}
+      >
         Tech Stack
       </h2>
       <div className=" w-full h-screen relative flex items-center justify-center rounded-full bg-circular-Dark ">
@@ -282,7 +285,7 @@ const Skills = () => {
       </section>
       <></>
 
-     {isAboveSmallScreens?<SkillList />:<></>} 
+      {isAboveSmallScreens ? <SkillList /> : <></>}
     </>
   );
 };
