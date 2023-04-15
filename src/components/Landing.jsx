@@ -2,8 +2,7 @@ import useMediaQuery from "../hooks/useMediaQuery";
 import { motion } from "framer-motion";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import SocialMediaIcons from "../components/SocialMediaIcons";
-import ProfileImage from "../../assets/profile.png"
-
+import ProfileImage from "../../assets/profile.png";
 const Landing = ({ setSelectedPage }) => {
   const isAboveLarge = useMediaQuery("(min-width:1060px)");
   return (
@@ -46,7 +45,7 @@ const Landing = ({ setSelectedPage }) => {
               visible: { opacity: 1, x: 0 },
             }}
           >
-            <p className="text-6xl   font-playfair z-10 text-center md:text-start">
+            <div className="text-6xl   font-playfair z-10 text-center md:text-start">
               HI i am
               <span
                 className="xs:relative xs:text-deep-blue xs:font-semibold z-20 xs:before:content-brush
@@ -54,40 +53,40 @@ const Landing = ({ setSelectedPage }) => {
               >
                 Utkarsh
               </span>
-            </p>
+            </div>
 
-            <p className="mt-10 mb-7 text-sm text-center md:text-start ">
-              <h3 class="text-base font-sans text-white font-medium     ">
+            <div className="mt-10 mb-7 text-sm text-center md:text-start ">
+              <h3 className="text-base font-sans text-white font-medium     ">
                 Fullstack WebDeveloper , Designer ,Web3 Enthusiast
               </h3>
-              {/* <h1 class="text-4xl font-extrabold text-slate-300 mt-3">
+              {/* <h1 className="text-4xl font-extrabold text-slate-300 mt-3">
                 Hi, I am Utkarsh
               </h1> */}
-              <p class="text-base font-semibold  text-gray-400 mt-3">
+              <div className="text-base font-semibold  text-gray-400 mt-3">
                 I am a Sophomore at SRMIST KTR.
-                <span class="underline decoration-gray-900 foxt-bold text-white">
-                {" "}  Smart india hackathon 2022 winner , 15+ Hackathon wins{" "}
+                <span className="underline decoration-gray-900 foxt-bold text-white">
+                  Smart india hackathon 2022 winner , 15+ Hackathon wins
                 </span>
                 I am passionate about
-                <span class="underline decoration-red-400 foxt-bold text-white">
-                {" "} Open Source{" "}
+                <span className="underline decoration-red-400 foxt-bold text-white">
+                  Open Source
                 </span>
-                and{" "}
-                <span class="underline decoration-pink-500 font-bold text-white">
-                {" "}   Web Development{" "}
+                and
+                <span className="underline decoration-pink-500 font-bold text-white">
+                  Web Development
                 </span>
                 currently learning to build scalable web-apps I am proficient in
                 building neat User Interfaces and can get along with full stack
                 projects . My Favorite tech Stack is
-                <span class="underline decoration-green-500 font-bold text-white">
-                {" "} MERN{" "}
+                <span className="underline decoration-green-500 font-bold text-white">
+                  MERN
                 </span>
-                <span class="text-green-300"> MongoDB</span>,
-                <span class="text-red-600">ExpressJS</span>,
-                <span class="text-indigo-500">ReactJS</span>,
-                <span class="text-green-600">NodeJS</span>
-              </p>
-            </p>
+                <span className="text-green-300"> MongoDB</span>,
+                <span className="text-red-600">ExpressJS</span>,
+                <span className="text-indigo-500">ReactJS</span>,
+                <span className="text-green-600">NodeJS</span>
+              </div>
+            </div>
           </motion.div>
           {/* cta */}
           <motion.div
@@ -101,22 +100,30 @@ const Landing = ({ setSelectedPage }) => {
               visible: { opacity: 1, x: 0 },
             }}
           >
-            <AnchorLink
-              className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-7 font-semibold hover:bg-blue hover:text-white transition duration-500"
-              onClick={() => setSelectedPage("contact")}
-              href="contact"
-            >
-              Contact Me
-            </AnchorLink>
-            <AnchorLink
+            <div className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-7 font-semibold hover:bg-blue hover:text-white transition duration-500">
+              <a
+                href="https://drive.google.com/file/d/1bxMRyMmuB7NpLXuAhlbAtLk80am7SCVd/view?usp=share_link"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Resume
+              </a>
+            </div>
+            <div
               className="rounded-r-sm  bg-gradient-rainblue py-0.5 pr-0.5"
-              onClick={() => setSelectedPage("contact")}
               href="contact"
             >
               <div className="bg-deep-blue hover:text-red transition duration-500 w-full h-full flex items-center justify-center font-playfair px-10">
-                Let's Talk
+                <a
+                  href="https://api.whatsapp.com/send?phone=6200402119
+"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Let's Talk
+                </a>
               </div>
-            </AnchorLink>
+            </div>
           </motion.div>
           <motion.div
             initial="hidden"
