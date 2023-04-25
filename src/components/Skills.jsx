@@ -1,9 +1,29 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import useMediaQuery from "../hooks/useMediaQuery";
+import Marquee from "react-easy-marquee";
 import axios from "axios";
 import LineBreak from "./LineBreak";
 import Line from "../../assets/line.png";
+import c from "../../assets/c.svg";
+import cpp from "../../assets/cpp.svg";
+import css from "../../assets/css.svg";
+import express from "../../assets/express.svg";
+import tailwind from "../../assets/tailwind.svg";
+import next from "../../assets/next.svg";
+import javascript from "../../assets/javascript.svg";
+
+import html from "../../assets/html.svg";
+import linux from "../../assets/linux.svg";
+import mongo from "../../assets/mongo.svg";
+import node from "../../assets/node.svg";
+import sass from "../../assets/sass.svg";
+import typescript from "../../assets/typescript.svg";
+import gatsby from "../../assets/gatsby.svg";
+import redux from "../../assets/redux.svg";
+import react from "../../assets/react.svg";
+import git from "../../assets/git.svg";
+import vercel from "../../assets/vercel.svg";
 const SkillElem = ({ name, x, y }) => {
   return (
     <motion.div
@@ -23,7 +43,7 @@ const SkillList = () => {
     <>
       <h2
         className=" bg-yellow-200 font-bold text-8xl  w-full text-center "
-        style={{textShadow:"#ec4899 0px 7px "}}
+        style={{ textShadow: "#ec4899 0px 7px " }}
       >
         Tech Stack
       </h2>
@@ -50,7 +70,51 @@ const SkillList = () => {
     </>
   );
 };
-
+const SkillMarque = () => {
+  const skills = [
+    react,
+    next,
+    node,
+    redux,
+    typescript,
+    javascript,
+    gatsby,
+    express,
+    mongo,
+    tailwind,
+    sass,
+    html,
+    css,
+    git,
+    vercel,
+    linux,
+    c,
+    cpp,
+  ].reverse();
+  return (
+    <Marquee
+      className=""
+      duration={6000}
+      background=""
+      height="10rem"
+      width="100%"
+      axis="X"
+      align="center"
+      pauseOnHover={true}
+      reverse={true}
+    >
+      {/* <img className="w-[7rem] " src={cpp} alt="" />
+<img className="w-[7rem] " src={react} alt="" />
+<img className="w-[7rem] " src={redux} alt="" />
+<img className="w-[7rem] " src={redux} alt="" /> */}
+      {skills.map((e) => {
+        return (
+          <img className="w-[5rem] h-[5rem] mx-[3rem] " src={e} alt={e} />
+        );
+      })}
+    </Marquee>
+  );
+};
 const Skills = () => {
   const isAboveSmallScreens = useMediaQuery("(min-width:1060px)");
   const [quote, setQuote] = useState("");
@@ -263,10 +327,10 @@ const Skills = () => {
               </h3>
             </div>
             <div className="xs:basis-1/2  flex flex-col w-full justify-center h-[20rem] text-center  items-center border-2 border-grey py-5">
-              <blockquote className="text-xl italic font-semibold text-gray-900 dark:text-white">
+              <blockquote className="text-xl italic font-semibold text-white">
                 <svg
                   aria-hidden="true"
-                  className="w-10 h-10 text-gray-400 dark:text-gray-600"
+                  className="w-10 h-10 text-gray-400 "
                   viewBox="0 0 24 27"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -285,7 +349,7 @@ const Skills = () => {
       </section>
       <></>
 
-      {isAboveSmallScreens ? <SkillList /> : <></>}
+      {isAboveSmallScreens ? <SkillList /> : <SkillMarque />}
     </>
   );
 };
