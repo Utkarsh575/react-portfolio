@@ -6,6 +6,7 @@ import DotGroup from "./components/DotGroup";
 import Landing from "./components/Landing";
 import LineBreak from "./components/LineBreak";
 import Skills from "./components/Skills";
+import Experiences from "./components/Experiences";
 const App = () => {
   const [selectedPage, setSelectedPage] = useState("home");
   const isAboveMediumScreen = useMediaQuery("(min-width:1060px");
@@ -38,6 +39,7 @@ const App = () => {
       <LineBreak />
       <div className=" w-5/6 mx-auto md:h-full">
         <Skills />
+        <Experiences/>
       </div>
     </div>
   );
